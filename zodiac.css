@@ -1,0 +1,88 @@
+artical {
+    display: flex;
+    max-width: 500px;
+    margin: 150px auto;
+    justify-content: center;
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+}
+input, button {
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+select {
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 38px;
+}
+
+button {
+    width: 200px;
+    margin-bottom: -50px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #5bc0de;
+    color: white;
+}
+
+.result-2 {
+    width: 160px;
+    /*box-shadow: 1px 8px 30px 4px rgba(0,0,0,.1);*/
+    box-shadow: rgba(0,0,0,0.3) 0 0 6px,rgba(0,0,0,0.15) 0 1px 6px;
+    font-size: 1.3rem;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.modal-wrap {
+    /*width: 500px;
+    height: 350px;
+    box-shadow: rgba(0,0,0,0.3) 0 0 6px,rgba(0,0,0,0.15) 0 1px 6px;
+    display: none;
+    position: absolute;
+    border-radius: 3px;
+    z-index: 1000;*/
+
+    width: 500px;
+    /*height: 350px;*/
+    box-shadow: rgba(0,0,0,0.3) 0 0 6px,rgba(0,0,0,0.15) 0 1px 6px;
+    display: none;
+    border-radius: 3px;
+    z-index: 1000;
+    margin: 0 auto;
+    background: white;
+    position: absolute;
+
+}
+.header-row {
+    /*height: 50px;*/
+    border-bottom: 1px solid #cdcdcd;
+    padding: 10px 20px 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.close {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.close:hover {
+    transform: rotate(90deg);
+    transition: .3s;
+    cursor: pointer;
+}
+.header > h1 {
+    padding: 0;
+    margin: 0 auto;
+}
+.content {
+    padding: 0 20px;
+}
